@@ -7,6 +7,7 @@ import xml.dom.minidom as minidom
 class ManifestDataExtractor(object):
 
 
+
     def __init__(self, filePath):
         self.filePath = filePath
         if self.validateManifest():
